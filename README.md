@@ -2,8 +2,12 @@
 # WeActStudio.STM32G474CoreBoard
 ![display](Images/0.png)
 ![display](Images/1.png)
+![display](Images/2.png)
 STM32G474CEU6
 > 170Mhz Max,128KB RAM,512KB ROM
+
+STM32G474CBT6
+> 170Mhz Max,128KB RAM,128KB ROM
 
 ST Official Website www.st.com
 
