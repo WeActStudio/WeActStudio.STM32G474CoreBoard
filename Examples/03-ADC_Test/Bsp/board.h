@@ -16,9 +16,9 @@ extern "C"
 #endif
 
 //#define STM32G474CxT6
-//#define STM32G474CxB6
+//#define STM32G474CxU6
 
-#if defined(STM32G474CxB6)
+#if defined(STM32G474CxU6)
 #define LED_Pin GPIO_PIN_6
 #define LED_GPIO_Port GPIOC
 #define LED_GPIO_Port_CLK_ENABLE() __HAL_RCC_GPIOC_CLK_ENABLE()
@@ -27,7 +27,7 @@ extern "C"
 #define LED_GPIO_Port GPIOA
 #define LED_GPIO_Port_CLK_ENABLE() __HAL_RCC_GPIOA_CLK_ENABLE()
 #else
-#error "STM32G474CxB6 or STM32G474CxT6 need defined"
+#error "STM32G474CxU6 or STM32G474CxT6 need defined"
 #endif
 
     void board_button_init(void);
